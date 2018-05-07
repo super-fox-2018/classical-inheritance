@@ -70,12 +70,12 @@ class Fish extends animals{
 
 var suPower = new SuperPower();
 var animal = new animals({num_length:0,habitat:'hutan'});
-var cat = new Cat({num_length:4,habitat:'darat',spesies:'aaaa',meal:'omnivora'});
-var chicken = new Chicken({num_length:2,habitat:'darat',spesies:'aaaa',meal:'herbivora'});
+var cat = new Cat({num_length:4,habitat:'darat',spesies:'kucing',meal:'omnivora'});
+var chicken = new Chicken({num_length:2,habitat:'darat',spesies:'unggas',meal:'herbivora'});
 var snake = new Snake({num_length:0,habitat:'darat',spesies:'hewan melata',meal:'okarnivora'});
-var bird = new Bird({num_length:2,habitat:'udara',spesies:'aaaa',meal:'herbifora'});
-var lion = new Lion({num_length:4,habitat:'darat',spesies:'aaaa',meal:'karnivora'});
-var fish = new Fish({num_length:0,habitat:'laut',spesies:'aaaa',meal:'omnivora'});
+var bird = new Bird({num_length:2,habitat:'udara',spesies:'uanggas',meal:'herbifora'});
+var lion = new Lion({num_length:4,habitat:'darat',spesies:'kucing',meal:'karnivora'});
+var fish = new Fish({num_length:0,habitat:'laut',spesies:'ikan',meal:'omnivora'});
 
 console.log(cat);
 console.log(chicken);
