@@ -30,7 +30,7 @@ class Frog extends Animal{
 
 class Bat extends Animal{
     constructor(name, isWarm){
-        super(name, 0, isWarm)
+        super(name, 2, isWarm)
     }
 }
 
