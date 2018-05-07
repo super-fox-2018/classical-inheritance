@@ -7,7 +7,15 @@ class SuperPower {
 
   be_invisible() {
     console.log('zzzzzzzzzzz');
-  }  
+  }
+
+  spitFire() {
+    console.log('Fuaaayhaaa Oooonn');
+  }
+
+  becomeStone() {
+    console.log('grkgrkgrkgrk');
+  }
 }
 
 class Animal {
@@ -20,30 +28,39 @@ class Animal {
 }
 
 class Eagle extends Animal {
-  constructor(name) {
+  constructor(name, featherColor) {
     super(name, 2, true);
+    this.featherColor = featherColor;
   }
 }
 
 class Lion extends Animal {
-  constructor(name) {
+  constructor(name, furColor) {
     super(name, 2, true);
+    this.furColor = furColor;
   }
 }
 
 class Elephant extends Animal {
-  constructor(name) {
+  constructor(name, skinColor) {
     super(name, 4, true);
+    this.skinColor = skinColor;
   }
 }
 
 class Crocodile extends Animal {
-  constructor(name) {
+  constructor(name, skinColor) {
     super(name, 5, false);
+    this.skinColor = this.skinColor;
   }
 }
 
-const aslan = new Lion('Aslan');
-const croboBoy = new Crocodile('Croco Boy');
+const kratos = new Eagle('Kratos', 'White');
+const aslan = new Lion('Aslan', 'Gold');
+const itebe = new Elephant('Itebe', 'Blue');
+const crocoBoy = new Crocodile('Croco Boy', 'Green');
 
+kratos.superpower.becomeStone();
 aslan.superpower.use_laser_vision(); 
+itebe.superpower.spitFire();
+crocoBoy.superpower.be_invisible();
