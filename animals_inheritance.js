@@ -17,6 +17,13 @@ class Godzilla extends Animal{
     }
 }
 
+class GoGilla extends Animal{
+    constructor(animalProperties){
+        super(animalProperties)
+        this.fatness = animalProperties.fatness
+    }
+}
+
 class SupaPowa {
     constructor(){
         
@@ -37,6 +44,12 @@ let Bob = new Godzilla({
     legsNumber : 500,
     isWarmBlooded : 'OF COURSE',
     hotness : 'SUPA HOT',
+})
+let sakukuratamakalakateke = new GoGilla({
+    Name : 'Bob',
+    legsNumber : 500,
+    isWarmBlooded : 'meeeh~',
+    fatness : 'SUPA HOT *ahem* I mean yes, fat',
 })
 
 Bob.SupaPowa.beSupaHot()
